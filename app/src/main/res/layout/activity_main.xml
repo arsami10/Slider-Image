@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.denzcoskun.imageslider.ImageSlider
+        android:layout_width="match_parent"
+        android:id="@+id/slider"
+        app:auto_cycle="true"
+        app:period="1000"
+        app:placeholder="@drawable/color_background"
+        app:error_image="@drawable/color_background"
+        app:delay="0"
+        app:corner_radius="5"
+        android:layout_height="210dp"
+        tools:ignore="MissingConstraints">
+</com.denzcoskun.imageslider.ImageSlider>
+
+</LinearLayout>
